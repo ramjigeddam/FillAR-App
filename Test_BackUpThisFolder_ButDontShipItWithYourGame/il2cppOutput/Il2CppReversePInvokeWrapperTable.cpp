@@ -1,0 +1,269 @@
+﻿#include "pch-cpp.hpp"
+
+#ifndef _MSC_VER
+# include <alloca.h>
+#else
+# include <malloc.h>
+#endif
+
+
+#include <stdint.h>
+#include <limits>
+
+
+
+// System.Void
+struct Void_t4861ACF8F4594C3437BB48B6E56783494B843915;
+
+struct float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E;
+
+
+IL2CPP_EXTERN_C_BEGIN
+IL2CPP_EXTERN_C_END
+
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// System.ValueType
+struct ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F  : public RuntimeObject
+{
+};
+// Native definition for P/Invoke marshalling of System.ValueType
+struct ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F_marshaled_pinvoke
+{
+};
+// Native definition for COM marshalling of System.ValueType
+struct ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F_marshaled_com
+{
+};
+
+// System.Guid
+struct Guid_t 
+{
+	// System.Int32 System.Guid::_a
+	int32_t ____a_1;
+	// System.Int16 System.Guid::_b
+	int16_t ____b_2;
+	// System.Int16 System.Guid::_c
+	int16_t ____c_3;
+	// System.Byte System.Guid::_d
+	uint8_t ____d_4;
+	// System.Byte System.Guid::_e
+	uint8_t ____e_5;
+	// System.Byte System.Guid::_f
+	uint8_t ____f_6;
+	// System.Byte System.Guid::_g
+	uint8_t ____g_7;
+	// System.Byte System.Guid::_h
+	uint8_t ____h_8;
+	// System.Byte System.Guid::_i
+	uint8_t ____i_9;
+	// System.Byte System.Guid::_j
+	uint8_t ____j_10;
+	// System.Byte System.Guid::_k
+	uint8_t ____k_11;
+};
+
+struct Guid_t_StaticFields
+{
+	// System.Guid System.Guid::Empty
+	Guid_t ___Empty_0;
+};
+
+// System.IntPtr
+struct IntPtr_t 
+{
+	// System.Void* System.IntPtr::m_value
+	void* ___m_value_0;
+};
+
+struct IntPtr_t_StaticFields
+{
+	// System.IntPtr System.IntPtr::Zero
+	intptr_t ___Zero_1;
+};
+
+// UnityEngine.RectInt
+struct RectInt_t1744D10E1063135DA9D574F95205B98DAC600CB8 
+{
+	// System.Int32 UnityEngine.RectInt::m_XMin
+	int32_t ___m_XMin_0;
+	// System.Int32 UnityEngine.RectInt::m_YMin
+	int32_t ___m_YMin_1;
+	// System.Int32 UnityEngine.RectInt::m_Width
+	int32_t ___m_Width_2;
+	// System.Int32 UnityEngine.RectInt::m_Height
+	int32_t ___m_Height_3;
+};
+
+// UnityEngine.Vector2Int
+struct Vector2Int_t69B2886EBAB732D9B880565E18E7568F3DE0CE6A 
+{
+	// System.Int32 UnityEngine.Vector2Int::m_X
+	int32_t ___m_X_0;
+	// System.Int32 UnityEngine.Vector2Int::m_Y
+	int32_t ___m_Y_1;
+};
+
+struct Vector2Int_t69B2886EBAB732D9B880565E18E7568F3DE0CE6A_StaticFields
+{
+	// UnityEngine.Vector2Int UnityEngine.Vector2Int::s_Zero
+	Vector2Int_t69B2886EBAB732D9B880565E18E7568F3DE0CE6A ___s_Zero_2;
+	// UnityEngine.Vector2Int UnityEngine.Vector2Int::s_One
+	Vector2Int_t69B2886EBAB732D9B880565E18E7568F3DE0CE6A ___s_One_3;
+	// UnityEngine.Vector2Int UnityEngine.Vector2Int::s_Up
+	Vector2Int_t69B2886EBAB732D9B880565E18E7568F3DE0CE6A ___s_Up_4;
+	// UnityEngine.Vector2Int UnityEngine.Vector2Int::s_Down
+	Vector2Int_t69B2886EBAB732D9B880565E18E7568F3DE0CE6A ___s_Down_5;
+	// UnityEngine.Vector2Int UnityEngine.Vector2Int::s_Left
+	Vector2Int_t69B2886EBAB732D9B880565E18E7568F3DE0CE6A ___s_Left_6;
+	// UnityEngine.Vector2Int UnityEngine.Vector2Int::s_Right
+	Vector2Int_t69B2886EBAB732D9B880565E18E7568F3DE0CE6A ___s_Right_7;
+};
+
+// System.Void
+struct Void_t4861ACF8F4594C3437BB48B6E56783494B843915 
+{
+	union
+	{
+		struct
+		{
+		};
+		uint8_t Void_t4861ACF8F4594C3437BB48B6E56783494B843915__padding[1];
+	};
+};
+
+// UnityEngine.XR.ARCore.ArCameraConfigFilter
+struct ArCameraConfigFilter_tF665AEAE3CDEB76E6485508096A093A9E0E0B607 
+{
+	// System.IntPtr UnityEngine.XR.ARCore.ArCameraConfigFilter::m_Self
+	intptr_t ___m_Self_0;
+};
+
+// UnityEngine.XR.ARCore.ArConfig
+struct ArConfig_tC991F7E3046E638B111BDBE5A2B25C4F363C4F1C 
+{
+	// System.IntPtr UnityEngine.XR.ARCore.ArConfig::m_Self
+	intptr_t ___m_Self_0;
+};
+
+// UnityEngine.XR.ARCore.ArSession
+struct ArSession_t5038012861AFE90255CCD3F97A7819940B50ECFF 
+{
+	// System.IntPtr UnityEngine.XR.ARCore.ArSession::m_Self
+	intptr_t ___m_Self_0;
+};
+
+// UnityEngine.XR.ARSubsystems.XRCpuImage/ConversionParams
+struct ConversionParams_t062706B15E2C508C54473A1FD72013C4381CCB62 
+{
+	// UnityEngine.RectInt UnityEngine.XR.ARSubsystems.XRCpuImage/ConversionParams::m_InputRect
+	RectInt_t1744D10E1063135DA9D574F95205B98DAC600CB8 ___m_InputRect_0;
+	// UnityEngine.Vector2Int UnityEngine.XR.ARSubsystems.XRCpuImage/ConversionParams::m_OutputDimensions
+	Vector2Int_t69B2886EBAB732D9B880565E18E7568F3DE0CE6A ___m_OutputDimensions_1;
+	// UnityEngine.TextureFormat UnityEngine.XR.ARSubsystems.XRCpuImage/ConversionParams::m_Format
+	int32_t ___m_Format_2;
+	// UnityEngine.XR.ARSubsystems.XRCpuImage/Transformation UnityEngine.XR.ARSubsystems.XRCpuImage/ConversionParams::m_Transformation
+	int32_t ___m_Transformation_3;
+};
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_ARCameraBackground_BeforeBackgroundRenderHandler_m50F0B7017DEEF627A0B128B2A9828CBEC377AF3C(int32_t ___eventId0);
+extern "C" void CDECL ReversePInvokeWrapper_CachedFunction_GetFloat3Float_m88FDF30999510CF11EB389B303BBEB203348C137(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* ___destination0, void* ___src1);
+extern "C" void CDECL ReversePInvokeWrapper_CachedFunction_GetFloat3FloatU24BurstManaged_mB9D659D102B90942B07C169661E95EAE5322EC72(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* ___destination0, void* ___src1);
+extern "C" void CDECL ReversePInvokeWrapper_CachedFunction_GetFloat3Int16_m9E7CD32F3DBDAD6BA3B3D9FDEA37DD73BFD979D9(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* ___destination0, void* ___src1);
+extern "C" void CDECL ReversePInvokeWrapper_CachedFunction_GetFloat3Int16U24BurstManaged_m923E30300BF6499B56E6060213AA2B86EF554212(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* ___destination0, void* ___src1);
+extern "C" void CDECL ReversePInvokeWrapper_CachedFunction_GetFloat3Int16Normalized_m1E148A6DFAB42D6B6DAB39C059AB4728C2CC144F(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* ___destination0, void* ___src1);
+extern "C" void CDECL ReversePInvokeWrapper_CachedFunction_GetFloat3Int16NormalizedU24BurstManaged_m763CC8F58E14A630D4FDCFD5F32F9BB0DEA3520C(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* ___destination0, void* ___src1);
+extern "C" void CDECL ReversePInvokeWrapper_CachedFunction_GetFloat3Int8_mFC06308D62A39322CC4156AE03907E9D2D88C2EC(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* ___destination0, void* ___src1);
+extern "C" void CDECL ReversePInvokeWrapper_CachedFunction_GetFloat3Int8U24BurstManaged_m48DC7DBCD02D28C553AA94B44BB9A6BF3B371A14(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* ___destination0, void* ___src1);
+extern "C" void CDECL ReversePInvokeWrapper_CachedFunction_GetFloat3Int8Normalized_mD34D581C47E5366858ABE084E208A0CABAF54EBB(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* ___destination0, void* ___src1);
+extern "C" void CDECL ReversePInvokeWrapper_CachedFunction_GetFloat3Int8NormalizedU24BurstManaged_mFF8ABE23E97D5AD2A1ACBAE108DDD032AD2BF7D3(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* ___destination0, void* ___src1);
+extern "C" void CDECL ReversePInvokeWrapper_CachedFunction_GetFloat3UInt16_m7AC38A641F1B33BC4A2E6C69A978BA0CDC6DB789(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* ___destination0, void* ___src1);
+extern "C" void CDECL ReversePInvokeWrapper_CachedFunction_GetFloat3UInt16U24BurstManaged_mE28A595227E7872743567C42F431F5B8783EA7DD(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* ___destination0, void* ___src1);
+extern "C" void CDECL ReversePInvokeWrapper_CachedFunction_GetFloat3UInt16Normalized_mEEB454F87DA3CDB532EEF2047BB3450EA59B394F(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* ___destination0, void* ___src1);
+extern "C" void CDECL ReversePInvokeWrapper_CachedFunction_GetFloat3UInt16NormalizedU24BurstManaged_mCD1386379F635F972680382FDEE6ED88E512FE67(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* ___destination0, void* ___src1);
+extern "C" void CDECL ReversePInvokeWrapper_CachedFunction_GetFloat3UInt32_mA70E39BBAAF68905A0F95B06D4F7AE9411A91F16(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* ___destination0, void* ___src1);
+extern "C" void CDECL ReversePInvokeWrapper_CachedFunction_GetFloat3UInt32U24BurstManaged_m8442B7E87F2D4253BCD8014980D5CF92FE81C33C(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* ___destination0, void* ___src1);
+extern "C" void CDECL ReversePInvokeWrapper_CachedFunction_GetFloat3UInt32Normalized_mBE43EA2E1801FCC8503210C99F0223B1B12BA7F6(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* ___destination0, void* ___src1);
+extern "C" void CDECL ReversePInvokeWrapper_CachedFunction_GetFloat3UInt32NormalizedU24BurstManaged_mD5838E601CCCDA558EEA4F73A23CA917DD9A146F(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* ___destination0, void* ___src1);
+extern "C" void CDECL ReversePInvokeWrapper_CachedFunction_GetFloat3UInt8_m87526E8A1695125971B0A1417E477EEE8799A11A(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* ___destination0, void* ___src1);
+extern "C" void CDECL ReversePInvokeWrapper_CachedFunction_GetFloat3UInt8U24BurstManaged_m45976816F435111110C506DC596888CF8E3D4658(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* ___destination0, void* ___src1);
+extern "C" void CDECL ReversePInvokeWrapper_CachedFunction_GetFloat3UInt8Normalized_m0628AF649C27ED3CB95755938EEA6728ED3D2A18(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* ___destination0, void* ___src1);
+extern "C" void CDECL ReversePInvokeWrapper_CachedFunction_GetFloat3UInt8NormalizedU24BurstManaged_m1B45642FF72D1671E13520B78CF63763FEFE53EA(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* ___destination0, void* ___src1);
+extern "C" int32_t CDECL ReversePInvokeWrapper_CachedFunction_GetIndexValueInt16_m860D7698CDBD6DD9AB92A7D9566C3EA2EB975C6E(void* ___baseAddress0, int32_t ___index1);
+extern "C" int32_t CDECL ReversePInvokeWrapper_CachedFunction_GetIndexValueInt16U24BurstManaged_m435DA39D6CF89D094AD395CF3395E14CC6B2C6BC(void* ___baseAddress0, int32_t ___index1);
+extern "C" int32_t CDECL ReversePInvokeWrapper_CachedFunction_GetIndexValueInt8_m65FAAC39876F433C74188E1CF843AF4BB72A8E8F(void* ___baseAddress0, int32_t ___index1);
+extern "C" int32_t CDECL ReversePInvokeWrapper_CachedFunction_GetIndexValueInt8U24BurstManaged_m7BD03FC706F089C6C6DB50BA4D135C58632ED2B9(void* ___baseAddress0, int32_t ___index1);
+extern "C" int32_t CDECL ReversePInvokeWrapper_CachedFunction_GetIndexValueUInt16_m8977795FE980540DED1E0102F37FB68E274A5B7E(void* ___baseAddress0, int32_t ___index1);
+extern "C" int32_t CDECL ReversePInvokeWrapper_CachedFunction_GetIndexValueUInt16U24BurstManaged_m764362FAED9CC0A4375E5411C7F55DA688E5DFED(void* ___baseAddress0, int32_t ___index1);
+extern "C" int32_t CDECL ReversePInvokeWrapper_CachedFunction_GetIndexValueUInt32_m0A0C226386ABF0E05ED65AF5E2B3CC5D9FA6B1D3(void* ___baseAddress0, int32_t ___index1);
+extern "C" int32_t CDECL ReversePInvokeWrapper_CachedFunction_GetIndexValueUInt32U24BurstManaged_m81532071DDB57529A295E46CBABF2D85C98A5754(void* ___baseAddress0, int32_t ___index1);
+extern "C" int32_t CDECL ReversePInvokeWrapper_CachedFunction_GetIndexValueUInt8_m72358A5AA65EA802EE95D6D600F0AAE08C13A8BB(void* ___baseAddress0, int32_t ___index1);
+extern "C" int32_t CDECL ReversePInvokeWrapper_CachedFunction_GetIndexValueUInt8U24BurstManaged_mDDFDAB1E8DC466A03EFD21C539A7DB8DF7A35636(void* ___baseAddress0, int32_t ___index1);
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_CultureInfo_OnCultureInfoChangedInAppX_mDBD419B094B2CFE933BB3F63886A5AB4E44D2DC0(Il2CppChar* ___language0);
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_OSSpecificSynchronizationContext_InvocationEntry_mB85BF0265E239960FC963DCA74DC67EBCE9480AC(intptr_t ___arg0);
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_XRCpuImage_OnAsyncConversionComplete_m7E311C07BC1C6138581C60F22191796CF029C65F(int32_t ___status0, ConversionParams_t062706B15E2C508C54473A1FD72013C4381CCB62 ___conversionParams1, intptr_t ___dataPtr2, int32_t ___dataLength3, intptr_t ___context4);
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_ARCoreProvider_OnBeforeGetCameraConfiguration_m2C314F5FC174CB06131BFADE7B5C0378E530C70C(intptr_t ___providerHandle0, ArSession_t5038012861AFE90255CCD3F97A7819940B50ECFF ___session1, ArCameraConfigFilter_tF665AEAE3CDEB76E6485508096A093A9E0E0B607 ___filter2);
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_ARCoreProvider_CameraPermissionRequestProvider_m52520DB26683512123C6B56B7E2A28269DF7C310(Il2CppMethodPointer ___callback0, intptr_t ___context1);
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_ARCoreProvider_OnApkInstallation_mE3B31805C325D8C7F0FC2BC00F8249A759AE5B98(int32_t ___status0, intptr_t ___context1);
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_ARCoreProvider_OnCheckApkAvailability_m0C786C7B24238176AC42E8CEF62BA1D84EB9C1DB(int32_t ___availability0, intptr_t ___context1);
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_ARCoreProvider_SetConfigurationCallback_m21110C590C44E78936908B4D2198452803E2330B(ArSession_t5038012861AFE90255CCD3F97A7819940B50ECFF ___session0, ArConfig_tC991F7E3046E638B111BDBE5A2B25C4F363C4F1C ___config1, intptr_t ___context2);
+extern "C" Guid_t DEFAULT_CALL ReversePInvokeWrapper_ARCoreProvider_GenerateGuid_m406A7A02F96253CB573818EA5FF3E5AF66B91CDC();
+extern "C" Guid_t DEFAULT_CALL ReversePInvokeWrapper_ARCoreProvider_GenerateGuid_m066B85C761641A3EB7927E43B13F67A63960A6AE();
+extern "C" int32_t CDECL ReversePInvokeWrapper_BurstCompilerHelper_IsBurstEnabled_m5EFFD7E2094228A267B5DBC3F28B82A7FF53E733();
+
+
+IL2CPP_EXTERN_C const Il2CppMethodPointer g_ReversePInvokeWrapperPointers[];
+const Il2CppMethodPointer g_ReversePInvokeWrapperPointers[44] = 
+{
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_ARCameraBackground_BeforeBackgroundRenderHandler_m50F0B7017DEEF627A0B128B2A9828CBEC377AF3C),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_CachedFunction_GetFloat3Float_m88FDF30999510CF11EB389B303BBEB203348C137),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_CachedFunction_GetFloat3FloatU24BurstManaged_mB9D659D102B90942B07C169661E95EAE5322EC72),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_CachedFunction_GetFloat3Int16_m9E7CD32F3DBDAD6BA3B3D9FDEA37DD73BFD979D9),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_CachedFunction_GetFloat3Int16U24BurstManaged_m923E30300BF6499B56E6060213AA2B86EF554212),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_CachedFunction_GetFloat3Int16Normalized_m1E148A6DFAB42D6B6DAB39C059AB4728C2CC144F),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_CachedFunction_GetFloat3Int16NormalizedU24BurstManaged_m763CC8F58E14A630D4FDCFD5F32F9BB0DEA3520C),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_CachedFunction_GetFloat3Int8_mFC06308D62A39322CC4156AE03907E9D2D88C2EC),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_CachedFunction_GetFloat3Int8U24BurstManaged_m48DC7DBCD02D28C553AA94B44BB9A6BF3B371A14),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_CachedFunction_GetFloat3Int8Normalized_mD34D581C47E5366858ABE084E208A0CABAF54EBB),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_CachedFunction_GetFloat3Int8NormalizedU24BurstManaged_mFF8ABE23E97D5AD2A1ACBAE108DDD032AD2BF7D3),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_CachedFunction_GetFloat3UInt16_m7AC38A641F1B33BC4A2E6C69A978BA0CDC6DB789),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_CachedFunction_GetFloat3UInt16U24BurstManaged_mE28A595227E7872743567C42F431F5B8783EA7DD),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_CachedFunction_GetFloat3UInt16Normalized_mEEB454F87DA3CDB532EEF2047BB3450EA59B394F),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_CachedFunction_GetFloat3UInt16NormalizedU24BurstManaged_mCD1386379F635F972680382FDEE6ED88E512FE67),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_CachedFunction_GetFloat3UInt32_mA70E39BBAAF68905A0F95B06D4F7AE9411A91F16),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_CachedFunction_GetFloat3UInt32U24BurstManaged_m8442B7E87F2D4253BCD8014980D5CF92FE81C33C),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_CachedFunction_GetFloat3UInt32Normalized_mBE43EA2E1801FCC8503210C99F0223B1B12BA7F6),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_CachedFunction_GetFloat3UInt32NormalizedU24BurstManaged_mD5838E601CCCDA558EEA4F73A23CA917DD9A146F),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_CachedFunction_GetFloat3UInt8_m87526E8A1695125971B0A1417E477EEE8799A11A),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_CachedFunction_GetFloat3UInt8U24BurstManaged_m45976816F435111110C506DC596888CF8E3D4658),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_CachedFunction_GetFloat3UInt8Normalized_m0628AF649C27ED3CB95755938EEA6728ED3D2A18),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_CachedFunction_GetFloat3UInt8NormalizedU24BurstManaged_m1B45642FF72D1671E13520B78CF63763FEFE53EA),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_CachedFunction_GetIndexValueInt16_m860D7698CDBD6DD9AB92A7D9566C3EA2EB975C6E),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_CachedFunction_GetIndexValueInt16U24BurstManaged_m435DA39D6CF89D094AD395CF3395E14CC6B2C6BC),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_CachedFunction_GetIndexValueInt8_m65FAAC39876F433C74188E1CF843AF4BB72A8E8F),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_CachedFunction_GetIndexValueInt8U24BurstManaged_m7BD03FC706F089C6C6DB50BA4D135C58632ED2B9),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_CachedFunction_GetIndexValueUInt16_m8977795FE980540DED1E0102F37FB68E274A5B7E),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_CachedFunction_GetIndexValueUInt16U24BurstManaged_m764362FAED9CC0A4375E5411C7F55DA688E5DFED),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_CachedFunction_GetIndexValueUInt32_m0A0C226386ABF0E05ED65AF5E2B3CC5D9FA6B1D3),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_CachedFunction_GetIndexValueUInt32U24BurstManaged_m81532071DDB57529A295E46CBABF2D85C98A5754),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_CachedFunction_GetIndexValueUInt8_m72358A5AA65EA802EE95D6D600F0AAE08C13A8BB),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_CachedFunction_GetIndexValueUInt8U24BurstManaged_mDDFDAB1E8DC466A03EFD21C539A7DB8DF7A35636),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_CultureInfo_OnCultureInfoChangedInAppX_mDBD419B094B2CFE933BB3F63886A5AB4E44D2DC0),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_OSSpecificSynchronizationContext_InvocationEntry_mB85BF0265E239960FC963DCA74DC67EBCE9480AC),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_XRCpuImage_OnAsyncConversionComplete_m7E311C07BC1C6138581C60F22191796CF029C65F),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_ARCoreProvider_OnBeforeGetCameraConfiguration_m2C314F5FC174CB06131BFADE7B5C0378E530C70C),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_ARCoreProvider_CameraPermissionRequestProvider_m52520DB26683512123C6B56B7E2A28269DF7C310),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_ARCoreProvider_OnApkInstallation_mE3B31805C325D8C7F0FC2BC00F8249A759AE5B98),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_ARCoreProvider_OnCheckApkAvailability_m0C786C7B24238176AC42E8CEF62BA1D84EB9C1DB),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_ARCoreProvider_SetConfigurationCallback_m21110C590C44E78936908B4D2198452803E2330B),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_ARCoreProvider_GenerateGuid_m406A7A02F96253CB573818EA5FF3E5AF66B91CDC),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_ARCoreProvider_GenerateGuid_m066B85C761641A3EB7927E43B13F67A63960A6AE),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_BurstCompilerHelper_IsBurstEnabled_m5EFFD7E2094228A267B5DBC3F28B82A7FF53E733),
+};

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<QCARInfo>
+    <TargetSet version="3.4">
+        <AreaTarget version="5.1" bbox="-6.6604 -2.7420 -17.7262 6.3677 4.8529 -4.9375" targetId="a637d4e4a50a43a8a6a0da188a87fcc7" name="plugxr" pathAuthoring="a637d4e4a50a43a8a6a0da188a87fcc7_authoring.glb" pathOcclusion="a637d4e4a50a43a8a6a0da188a87fcc7_occlusion.3dt" pathNavMesh="a637d4e4a50a43a8a6a0da188a87fcc7_navmesh.glb" cloudTarget="false" />
+    </TargetSet>
+</QCARInfo>

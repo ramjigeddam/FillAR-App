@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<QCARInfo>
+    <TargetSet version="3.4">
+        <AreaTarget version="5.1" bbox="-1.5427 -1.2556 -2.9963 2.4852 1.5846 0.3960" targetId="ad1c2bc5d8dc4de7ba468421c1d9a201" name="Office" pathAuthoring="ad1c2bc5d8dc4de7ba468421c1d9a201_authoring.glb" pathOcclusion="ad1c2bc5d8dc4de7ba468421c1d9a201_occlusion.3dt" pathNavMesh="ad1c2bc5d8dc4de7ba468421c1d9a201_navmesh.glb" cloudTarget="false" />
+    </TargetSet>
+</QCARInfo>
