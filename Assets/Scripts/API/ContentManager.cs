@@ -74,6 +74,7 @@ public class ContentManager : MonoBehaviour
 
         if (uwr.isDone)
         {
+            Debug.Log(uwr.downloadHandler.text);
             contentData = JsonMapper.ToObject(uwr.downloadHandler.text);
             if (contentData["status"].ToString() == "true" || contentData["status"].ToString() == "True")
             {

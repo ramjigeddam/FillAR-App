@@ -1,25 +1,54 @@
 using UnityEngine;
+using Vuforia;
+using UnityEngine.UI;
 
-public class VuforiaTrackingHandler : MonoBehaviour
+public class VuforiaTrackingHandler : DefaultObserverEventHandler
 {
     [SerializeField]
     GameObject trackingParent;
-    [SerializeField]
-    GameObject contentManager;
-
-    public void Start()
+    //[SerializeField]
+   // GameObject contentManager;
+   
+    public Text sampleText;
+    private void Awake()
     {
-        TrackingFound();
+        Debug.Log("here Added");
+        
+        sampleText = GameObject.Find("DebugText").gameObject.GetComponent<Text>();
+
+        trackingParent= GameObject.Find("TrackerParent").gameObject;
+       // contentManager= GameObject.Find("ContentManager").gameObject;
     }
-
-    public void TrackingFound()
+    protected override void OnTrackingFound()
     {
+        // SetAugmentationRendering(true);
+        OnTargetFound?.Invoke();
+
+        Debug.Log("Found");
+
+       
+        sampleText.text = "Found...";
+
         trackingParent.transform.SetParent(transform);
-        contentManager.SetActive(true);
+        trackingParent.transform.localPosition = Vector3.zero;
+        trackingParent.transform.rotation = Quaternion.Euler(Vector3.zero);
+        trackingParent.transform.localScale = Vector3.one;
+
+        FindObjectOfType<AreaTargetLoader>().contentManager.SetActive(true);
+
     }
 
-    public void TrackingLost()
+    protected override void OnTrackingLost()
     {
+        // SetAugmentationRendering(false);
+        OnTargetLost?.Invoke();
 
+        Debug.Log("Loss");
+
+        //cube.SetActive(false);
+       
+        sampleText.text = "Loss...";
+
+       
     }
 }
