@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <QCARInfo>
     <TargetSet version="3.4">
-        <AreaTarget version="5.1" bbox="-6.6604 -2.7420 -17.7262 6.3677 4.8529 -4.9375" targetId="a637d4e4a50a43a8a6a0da188a87fcc7" name="plugxr" pathAuthoring="a637d4e4a50a43a8a6a0da188a87fcc7_authoring.glb" pathOcclusion="a637d4e4a50a43a8a6a0da188a87fcc7_occlusion.3dt" pathNavMesh="a637d4e4a50a43a8a6a0da188a87fcc7_navmesh.glb" cloudTarget="false" />
+        <AreaTarget version="5.1" bbox="-15.3746 -6.9078 -8.3014 -4.0141 2.6352 -0.8236" targetId="e5b0b0286fb047a4b1a64f370ccef332" name="plugxr" pathAuthoring="e5b0b0286fb047a4b1a64f370ccef332_authoring.glb" pathOcclusion="e5b0b0286fb047a4b1a64f370ccef332_occlusion.3dt" pathNavMesh="e5b0b0286fb047a4b1a64f370ccef332_navmesh.glb" cloudTarget="false" />
     </TargetSet>
 </QCARInfo>
