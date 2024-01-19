@@ -9,7 +9,6 @@ public class ARUIManager : MonoBehaviour
     void Start()
     {
         Screen.sleepTimeout = SleepTimeout.NeverSleep;
-
         DisableExitMenu();
     }
    
