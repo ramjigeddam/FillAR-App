@@ -8,7 +8,7 @@ public class AreaTargetLoader : MonoBehaviour
 {
     
     string targetName = "mydesk";//my-home//plugxr//Office
-    string datasetXmlPath;
+    
 
     
     public GameObject contentManager;
@@ -27,8 +27,6 @@ public class AreaTargetLoader : MonoBehaviour
 
     void OnVuforiaInitialized(VuforiaInitError error)
     {
-
-
        /* string datasetPath = Application.persistentDataPath + "/";
         FileInfo[] files = new DirectoryInfo(datasetPath).GetFiles("*.xml");
 
@@ -74,9 +72,7 @@ public class AreaTargetLoader : MonoBehaviour
     void OnTargetStatusChanged(ObserverBehaviour behaviour, TargetStatus status)
     {
         Debug.Log("here target status:::::::::"+status.Status+" ::: "+behaviour);
-
         GameObject.Find(targetName).AddComponent<VuforiaTrackingHandler>();
-       // GameObject.Find(targetName).AddComponent<DefaultAreaTargetEventHandler>();
     }
 
 
