@@ -13,7 +13,7 @@ public class ARManager : MonoBehaviour
     void Start()
     {
         aRManager = this;
-        userInfo.text = "Scan Surface";
+        userInfo.text = "Point your camera at flat surface";
     }
 
     void Update()
