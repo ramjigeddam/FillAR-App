@@ -14,6 +14,7 @@ public class ARPlacement : MonoBehaviour
     private ARRaycastManager aRRaycastManager;
     ARPlaneManager m_ARPlaneManager;
     private bool placementPoseIsValid = false;
+    private GameObject reticle;
     bool userInfo = false;
     void Start()
     {
@@ -21,6 +22,8 @@ public class ARPlacement : MonoBehaviour
         aRRaycastManager = FindObjectOfType<ARRaycastManager>();
 
         userInfo = false;
+        reticle = Instantiate(placementIndicator);
+        reticle.SetActive(false);
     }
 
     // need to update placement indicator, placement pose and spawn 
@@ -42,20 +45,26 @@ public class ARPlacement : MonoBehaviour
     }
     void UpdatePlacementIndicator()
     {
+       
+      
         if (!userInfo && placementPoseIsValid)
         {
-            placementIndicator.SetActive(true);
-            placementIndicator.transform.SetPositionAndRotation(PlacementPose.position, PlacementPose.rotation);
+
+            reticle.transform.SetPositionAndRotation(PlacementPose.position, PlacementPose.rotation);
+            reticle.SetActive(true);
         }
         else
         {
-            placementIndicator.SetActive(false);
+            reticle.SetActive(false);
+            if (userInfo) return;
         }
     }
 
     void UpdatePlacementPose()
     {
-        var screenCenter = Camera.current.ViewportToScreenPoint(new Vector3(0.5f, 0.5f));
+        if (userInfo) return;
+
+        var screenCenter = Camera.main.ViewportToScreenPoint(new Vector3(0.5f, 0.5f));
         var hits = new List<ARRaycastHit>();
         aRRaycastManager.Raycast(screenCenter, hits, TrackableType.Planes);
 
@@ -63,8 +72,10 @@ public class ARPlacement : MonoBehaviour
 
         if (placementPoseIsValid)
         {
-            PlacementPose = hits[0].pose;         
+           
+            PlacementPose = hits[0].pose;
         }
+        
     }
     static List<ARRaycastHit> s_Hits = new List<ARRaycastHit>();
     void ARPlaceObject()
@@ -77,17 +88,6 @@ public class ARPlacement : MonoBehaviour
             StoptPlaneDetection();
             userInfo = true;
         }
-        //else
-        //{
-        //    Touch touch = Input.GetTouch(0);
-        //    if (aRRaycastManager.Raycast(touch.position, s_Hits, TrackableType.PlaneWithinPolygon))
-        //    {
-        //        Pose hitPose = s_Hits[0].pose;                            
-        //        arObjectToSpawn.transform.localPosition = hitPose.position;
-        //        arObjectToSpawn.transform.localRotation = Quaternion.Euler(0,0,0);
-
-        //    }
-        //}     
     }
 
     public void StoptPlaneDetection()

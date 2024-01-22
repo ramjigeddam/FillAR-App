@@ -56,14 +56,9 @@ public class ContentManager : MonoBehaviour
     public int assets_Count;
     void Start()
     {
-
-        //Debug.Log(Application.persistentDataPath);
-
         instance = this; 
         baseUrl = "https://fillar.in/backend-fillar/public/mobileApi/getExperienceData/CODE_exp123";
-
         StartCoroutine(ParseJson(baseUrl));
-
     }
 
     IEnumerator ParseJson(string url)
@@ -74,7 +69,6 @@ public class ContentManager : MonoBehaviour
 
         if (uwr.isDone)
         {
-            Debug.Log(uwr.downloadHandler.text);
             contentData = JsonMapper.ToObject(uwr.downloadHandler.text);
             if (contentData["status"].ToString() == "true" || contentData["status"].ToString() == "True")
             {
