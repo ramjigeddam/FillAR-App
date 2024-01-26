@@ -29,11 +29,7 @@ public class ARPlacement : MonoBehaviour
     // need to update placement indicator, placement pose and spawn 
     void Update()
     {
-        if (m_ARPlaneManager.trackables.count > 1 && !userInfo)
-        {
-            ARManager.aRManager.TapToPlaceText();
-        }
-
+      
         if (placementPoseIsValid && Input.touchCount > 0 && Input.GetTouch(0).phase == TouchPhase.Began)
         {
             ARPlaceObject();

@@ -1527,7 +1527,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Welcome to FillAR
+  m_text: Welcome to Spacsive
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 028132a682c6c49c6b2340ec66c77ec5, type: 2}
   m_sharedMaterial: {fileID: 8978598959604677334, guid: 028132a682c6c49c6b2340ec66c77ec5, type: 2}
@@ -1554,8 +1554,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 65
-  m_fontSizeBase: 65
+  m_fontSize: 55
+  m_fontSizeBase: 55
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18

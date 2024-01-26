@@ -13,7 +13,7 @@
       "url": "https://package.openupm.com"
     },
     "com.ptc.vuforia.engine": {
-      "version": "file:C:/Users/manog/Downloads/com.ptc.vuforia.engine-10.19.3.tgz",
+      "version": "file:/Users/ramji/Documents/com.ptc.vuforia.engine-10.19.3.tgz",
       "depth": 0,
       "source": "local-tarball",
       "dependencies": {

@@ -23,7 +23,7 @@ public class LoadModelContent : MonoBehaviour
 	async void LoadModelFast(string path, string modelID, Vector3 _position, Vector3 _rotation, Vector3 _scale)
 	{
 		model = new GameObject();
-		model.name = "Downloade Mesh";
+		model.name = "DownloadeMesh";
 		model.transform.localScale = Vector3.one;
         model.AddComponent<GltfAsset>();
 		var success = await model.GetComponent<GltfAsset>().Load(path);
@@ -31,7 +31,7 @@ public class LoadModelContent : MonoBehaviour
 		if (success)
 		{
             GameObject rootObject = new GameObject();
-            rootObject.name = "rootObject";
+            rootObject.name = "MeshRootObject";
             rootObject.transform.SetParent(GameObject.Find("TrackerParent").transform);
             rootObject.transform.localPosition = Vector3.zero;
             rootObject.transform.localRotation = Quaternion.Euler(0,0,0);
@@ -53,10 +53,10 @@ public class LoadModelContent : MonoBehaviour
             }
 			else
 			{
-                model.transform.localPosition = new Vector3(_position.x, _position.y, _position.z);
+                model.transform.localPosition = new Vector3(-_position.x, _position.y, _position.z);
             }
             model.transform.localRotation = finalRotation;
-			model.transform.localScale = new Vector3(_scale.x, _scale.y, _scale.z);
+            model.transform.localScale = new Vector3(_scale.x, _scale.y, _scale.z);
 
         }
 		else

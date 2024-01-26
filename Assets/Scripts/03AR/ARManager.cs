@@ -21,14 +21,6 @@ public class ARManager : MonoBehaviour
         
     }
 
-    public void TapToPlaceText()
-    {
-        if (userInfo != null)
-        {
-            userInfo.text = "Tap to place Object";
-        }
-    }
-
     public void ClearInfo()
     {
         if (userInfo != null)
