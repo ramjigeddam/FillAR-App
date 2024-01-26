@@ -58,11 +58,25 @@ public class LoadModelContent : MonoBehaviour
             model.transform.localRotation = finalRotation;
             model.transform.localScale = new Vector3(_scale.x, _scale.y, _scale.z);
 
-        }
+
+			foreach (Renderer renderer in model.GetComponentsInChildren<Renderer>())
+			{
+				if (model.transform.GetComponentsInChildren<SkinnedMeshRenderer>() != null || model.transform.GetComponentsInChildren<MeshRenderer>() != null)
+				{
+					if (renderer != null)
+						renderer.transform.gameObject.AddComponent<MeshCollider>();
+				}
+	        }
+
+				rootObject.AddComponent<ObjectZoomAndRotate>();
+
+		}
 		else
 		{
 			Debug.LogError("Loading glTF failed!");
 		}
+
+		
 
 		FindObjectOfType<ContentManager>().modelCount++;
 		FindObjectOfType<ContentManager>().assets_Count++;
