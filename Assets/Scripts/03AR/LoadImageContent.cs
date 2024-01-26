@@ -88,6 +88,8 @@ public class LoadImageContent : MonoBehaviour
         image.transform.localRotation = Quaternion.Euler(90,0,0);
         image.transform.localScale = Vector3.one;
 
+        downloadeImage.AddComponent<ObjectZoomAndRotate>();
+
         FindObjectOfType<ContentManager>().imageCount++;
 		FindObjectOfType<ContentManager>().assets_Count++;
         if (FindObjectOfType<ContentManager>().assets_Count== FindObjectOfType<ContentManager>().totalNumber_of_assets)
