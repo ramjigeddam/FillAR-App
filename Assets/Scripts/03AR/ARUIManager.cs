@@ -6,10 +6,19 @@ public class ARUIManager : MonoBehaviour
     int sceneNumber;
     [SerializeField]
     private GameObject exitMenu;
+
+    public GameObject fadeObject;
+
+    private void Awake()
+    {
+        if (fadeObject != null)
+        {
+            fadeObject.SetActive(true);
+        }
+    }
     void Start()
     {
         Screen.sleepTimeout = SleepTimeout.NeverSleep;
-
         DisableExitMenu();
     }
    

@@ -10,7 +10,7 @@
   ],
   "dependencies": {
     "com.atteneder.gltfast": "6.0.1",
-    "com.ptc.vuforia.engine": "file:C:/Users/manog/Downloads/com.ptc.vuforia.engine-10.19.3.tgz",
+    "com.ptc.vuforia.engine": "file:/Users/ramji/Documents/com.ptc.vuforia.engine-10.19.3.tgz",
     "com.unity.ai.navigation": "1.1.5",
     "com.unity.collab-proxy": "2.2.0",
     "com.unity.feature.development": "1.0.1",

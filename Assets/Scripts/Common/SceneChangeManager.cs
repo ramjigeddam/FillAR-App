@@ -3,7 +3,15 @@ using UnityEngine.SceneManagement;
 
 public class SceneChangeManager : MonoBehaviour
 {
-   
+    public GameObject fadeObject;
+
+    private void Awake()
+    {
+        if (fadeObject!=null)
+        {
+            fadeObject.SetActive(true);
+        }
+    }
     public void Back()
     {
         SceneManager.LoadScene(1);

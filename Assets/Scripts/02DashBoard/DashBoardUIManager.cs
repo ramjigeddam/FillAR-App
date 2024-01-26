@@ -3,6 +3,15 @@ using UnityEngine.SceneManagement;
 
 public class DashBoardUIManager : MonoBehaviour
 {
+    public GameObject fadeObject;
+
+    private void Awake()
+    {
+        if (fadeObject != null)
+        {
+            fadeObject.SetActive(true);
+        }
+    }
     void Start()
     {
         

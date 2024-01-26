@@ -35,11 +35,6 @@ public class TapToPlaceObjects : MonoBehaviour
 
     void Update()
     {
-        if (m_ARPlaneManager.trackables.count>1 && !userInfo)
-        {
-            ARManager.aRManager.TapToPlaceText();
-        }
-
         if (Input.touchCount > 0)
         {
             Touch touch = Input.GetTouch(0);
