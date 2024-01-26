@@ -68,7 +68,7 @@ public class LoadModelContent : MonoBehaviour
 				}
 	        }
 
-				rootObject.AddComponent<ObjectZoomAndRotate>();
+			model.AddComponent<ObjectZoomAndRotate>();
 
 		}
 		else

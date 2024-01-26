@@ -72,7 +72,7 @@ public class LoadVideoContent : MonoBehaviour
             video.transform.localRotation = Quaternion.Euler(90, 0, 0);
             video.transform.localScale = Vector3.one;
 
-            rootObject.AddComponent<ObjectZoomAndRotate>();
+            downloadeImage.AddComponent<ObjectZoomAndRotate>();
         }
 
 		FindObjectOfType<ContentManager>().videoCount++;
